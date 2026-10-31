@@ -1,0 +1,18 @@
+// ĐOẠN TRÍCH MINH HỌA - KHÔNG BIÊN DỊCH ĐƯỢC TRONG DỰ ÁN NÀY
+// Lớp này cần thư viện Jakarta EE (JAX-RS và CDI) và một máy chủ ứng dụng.
+// Phần mở rộng .txt được đặt có chủ ý để javac bỏ qua tệp này.
+//
+// Chương 6 - mục Nền tảng Jakarta EE
+
+@Path("/sanpham")
+public class SanPhamResource {
+
+    @Inject                       // CDI tiêm phụ thuộc thay cho lời gọi new
+    private SanPhamService dichVu;
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<SanPham> danhSach() throws SQLException {
+        return dichVu.laySapXepTheoGiaGiamDan();
+    }
+}

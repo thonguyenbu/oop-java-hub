@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Chuong03_ViDu_3_2_4</name>
+	<comment>Vi du 3.6 (muc 3.2.4) - Bon muc truy xuat tren hai goi. ManHinh.java CO Y KHONG BIEN DICH DUOC</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
