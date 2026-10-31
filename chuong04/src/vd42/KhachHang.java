@@ -13,7 +13,7 @@ public class KhachHang extends ConNguoi {
  
     public KhachHang(String maKhachHang, String hoTen, String soDienThoai,
                     String diaChi, String hangThanhVien) {
-        super(hoTen, soDienThoai, diaChi);      // bắt buộc là câu lệnh đầu tiên
+        super(hoTen, soDienThoai, diaChi);   // Java 17: phải đứng đầu
         this.maKhachHang = maKhachHang;
         this.hangThanhVien = hangThanhVien;
         System.out.println("  -> Hàm khởi tạo KhachHang chạy");
